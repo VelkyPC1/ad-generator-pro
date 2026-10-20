@@ -1,0 +1,39 @@
+{
+  "id": "vibrant",
+  "name": "Vibrant flat sticker",
+  "summary": "Jednoliate sýte pozadie v brand akcente, vyrezaný packshot, extra tučná verzálková typografia a vrstva bielych pill kariet a 3D emoji nálepiek. Brand-agnostický — farba sa berie z brand kariet.",
+  "when_to_use": "Offer, zľava, doprava zadarmo, výpredaj, katalógový leták s mriežkou produktov, porovnanie s bežným produktom, social proof. Použiteľný pre každého klienta — mení sa len akcentová farba z brand kariet. Nepoužívať tam, kde má vyznieť prémiovosť alebo pokoj.",
+  "prompt_block": "Render the image as a flat graphic-design composition, not a photographed or rendered 3D scene. Background is ONE completely flat, fully saturated brand accent colour filling the frame edge to edge, with no gradient, no vignette and no photographic texture; take that colour from the brand reference card and use it at full saturation, never a tint or a pastel. An optional very fine sparkle or glitter grain over the flat colour is allowed, nothing stronger. The product is a cut-out packshot with a clean isolated edge, placed large over the flat colour with a soft contact shadow beneath it, standing upright or tilted a few degrees, never in a photographic environment. Typography is one heavy geometric sans-serif family, ALL CAPS, pure white, tight letter spacing and tight leading, stacked over several lines; the key word or number is rendered two to three times larger than the qualifying line above it, creating a hard size contrast. Text sits flat on the colour with no outline, no drop shadow and no bevel. A layer of pure white containers carries the secondary information: fully rounded pills and rounded cards with generous padding, holding text in the brand accent colour or near-black, sometimes a white pill inside a slightly larger pale tint ring of the same accent. Prices appear inside a white pill: the old price struck through with a single line, the new price immediately beside it noticeably larger and bolder. Glossy three-dimensional emoji stickers (check mark, cross, stars, alarm clock, sparkles, flower, thumbs up) are scattered as a top layer with soft drop shadows, each one small and clearly separated. A friendly stylized 3D avatar head with an exaggerated expression may peek in from a corner or over the edge of a white card, cropped by the frame edge, treated as a sticker on top of the flat colour rather than part of a scene. Layout is a strict grid with generous empty colour between blocks: product on one side and the text stack on the other, or an even grid of product cells each with its own price pill and caption. Where a photograph is used at all, it is a bright soft-focus interior or textile scene placed inside a white rounded card, framed by the flat colour. Overall feel: loud, high-contrast, cheerful, unmistakably a promotion, readable at thumbnail size.",
+  "never": [
+    "gradients, vignettes, glows or photographic texture on the background colour",
+    "the product photographed inside a real environment instead of cut out over the flat colour",
+    "script, cursive, handwritten or serif typography anywhere (the brand logo is added afterwards as a PNG overlay and is never drawn by the model)",
+    "outlines, drop shadows, bevels or 3D extrusion on any text",
+    "thin or light weight typography in the headline",
+    "muted, pastel or desaturated palettes, dark moody lighting or cinematic grading",
+    "flat vector clip-art emoji, drawn emoji or hand-drawn icons instead of glossy 3D emoji stickers",
+    "rendering any hex code, font name, percentage of a safe zone or measurement as visible text"
+  ],
+  "works_with": {
+    "aspect_ratios": [
+      "1:1",
+      "4:5",
+      "9:16"
+    ],
+    "needs_product_images": true
+  },
+  "palette": {
+    "surface": "#FFFFFF",
+    "text_on_surface": "#13161D",
+    "muted_comparison_side": "#7A7F8C"
+  },
+  "variants": {
+    "typo-hero": "Packshot vľavo, obrovská verzálková typografia vpravo, kľúčové slovo cez celú šírku.",
+    "offer-grid": "Mriežka produktových buniek (3×2 aj viac), každá s cenovou pill a popiskom pod ňou. Katalógový leták.",
+    "comparison": "Vertikálny split — brand strana v sýtom akcente, strana bežného produktu v tlmenej šedo-fialovej #7A7F8C, obe s odrážkami ✅ a ❌.",
+    "white-card": "Veľká biela zaoblená karta na akcentovej ploche, vnútri fotka produktu, cenová pill a popis; roztrhnutý rožný štítok s urgenciou.",
+    "social-proof": "Fotka v pozadí, headline v akcentovej pill, okolo produktu rozhádzané biele recenzné kartičky natočené o pár stupňov s radom hviezd."
+  },
+  "brands_validated": [],
+  "source": "AdGenerator Pro — knižnica štýlov"
+}

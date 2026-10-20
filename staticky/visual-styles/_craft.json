@@ -1,0 +1,20 @@
+{
+  "id": "_craft",
+  "name": "Craft",
+  "summary": "Zdieľaná vrstva remeselnej disciplíny — sadzba, rytmus, zarovnanie, ukotvenie. Nie je to štýl, nedá sa vybrať cez visual_style. Zapína sa v štýle poľom \"craft\": true.",
+  "prompt_block": "CRAFT — typographic and layout discipline, applies to the whole composition regardless of style.\n\nType is SET, not merely placed. The headline carries visibly negative letter spacing and leading tight enough that its lines lock into one solid block with only a hair of air between them. Break the headline so the lines are of similar length and balanced, and never leave a single short word alone on the last line. Supporting text keeps open, comfortable leading and normal spacing.\n\nEvery block shares ONE alignment edge and the vertical gaps between blocks follow a consistent rhythm, never arbitrary spacing. Build the composition on that edge rather than centring every element.\n\nA price block reads as a hierarchy: the old price is smaller and visually recessed with one clean strike-through, the new price is clearly dominant. A discount badge touches or slightly overlaps the price block rather than floating alone in empty space.\n\nAny cut-out product is grounded with a soft contact shadow pooled directly beneath it, so it sits on the surface instead of floating. Its cut-out edge is clean and precise, with no white halo, no grey fringe and no leftover background from the source photograph.\n\nMargins are generous and EQUAL on all four edges and NOTHING crosses them: the product in particular is always shown complete, with its full silhouette inside the canvas. Interactive-looking elements take their width from the text column, not an arbitrary size, and nothing overlaps the product.\n\nEvery spacing, alignment and size value must look like a deliberate decision rather than a default.",
+  "never": [
+    "a single short orphan word alone on the last line of the headline",
+    "default loose letter spacing on the headline",
+    "elements scattered without a shared alignment edge, or every block centred",
+    "arbitrary uneven vertical gaps between blocks",
+    "a discount badge floating alone in empty space instead of anchored to the price",
+    "a cut-out product floating without a contact shadow beneath it",
+    "a white halo, grey fringe or leftover source background around a cut-out product",
+    "any element overlapping the product",
+    "unequal margins on the four edges",
+    "the product cut off or cropped by an edge of the canvas"
+  ],
+  "source": "AdGenerator Pro — knižnica štýlov",
+  "brands_validated": []
+}

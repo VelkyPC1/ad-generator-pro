@@ -1,0 +1,7 @@
+# AdGenerator Pro — Python závislosti (Python 3.9+)
+google-genai>=1.0        # Gemini: bannery, Veo / Omni video klipy
+Pillow>=10.0             # úpravy obrázkov, náhľady
+numpy>=1.24
+requests>=2.31           # ElevenLabs, FAL, API volania
+python-dotenv>=1.0       # načítanie .env s kľúčmi
+edge-tts>=6.1            # bezplatný záložný voiceover, keď ElevenLabs nie je

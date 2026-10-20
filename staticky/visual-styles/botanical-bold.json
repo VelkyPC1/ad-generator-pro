@@ -1,0 +1,41 @@
+{
+  "id": "botanical-bold",
+  "name": "Botanická plocha",
+  "summary": "Sýta prírodná farebná plocha cez celý formát, vyrezaný produkt vytekajúci za hranu, predimenzovaná typografia s negatívnym trackingom a jeden teplý akcent. Moderný, energický look, ktorý zostáva v prírodnej palete.",
+  "when_to_use": "Keď má banner pôsobiť ako kampaň značky, nie ako e-shopový katalóg. Sezónne promo, hero produkt, launch, výpredaj s charakterom. Pre značky s prírodnou paletou — nábytok, záhrada, interiér, bývanie. Nie tam, kde treba ukázať šesť produktov a ceny naraz.",
+  "prompt_block": "Build the image as a bold modern graphic composition on ONE saturated natural colour field that fills the frame edge to edge: a deep botanical green, a warm clay terracotta or a deep sand tone, taken from the brand palette and pushed to full depth, never a pale cream or a pastel tint. The field is flat or carries at most one very soft large-scale tonal shift; no photographic texture, no vignette. The product is a real photographed packshot, cut out with a clean edge and placed VERY large, occupying roughly half the frame. It is shown COMPLETE: the whole product is inside the canvas, nothing is cut off by any edge, and a clear band of empty colour separates it from every edge. Its full silhouette must be readable, because the shape of the product is what is being sold. Typography is one heavy geometric sans-serif at a deliberately oversized scale. The headline runs across two or three lines in heavy weight, in cream or off-white on the dark field,. Supporting text sits far smaller in regular weight with open leading, and the size jump between the two is dramatic. Hierarchy comes from scale alone, never from stacking boxes around text. The call to action is ONE solid cream or off-white button with fully rounded corners and a heavy near-black or accent-coloured label, never a dark sharp-cornered rectangle and never a button in the same colour family as the field behind it. Exactly ONE warm accent element is allowed in a contrasting palette colour: a solid circle, a short bar or a small block carrying the discount or the badge, set in the palette colour that is NOT used for the field, so green sits on clay and clay sits on green. At most one light surface appears in the whole frame. Leave generous empty colour around everything so the composition breathes. Overall feel: confident, contemporary, grounded in nature, energetic without shouting.",
+  "never": [
+    "a pale cream, beige or off-white background as the main field (that is the old catalogue look this style replaces)",
+    "more than one light card or surface floating on the colour field",
+    "stacked boxes or bars around every line of text",
+    "thin or light weight typography in the headline, or positive letter spacing on it",
+    "neon, magenta, hot pink or any colour outside the brand's natural palette",
+    "glossy 3D emoji stickers, glitter, starbursts or clip-art icons",
+    "a grid of many products with individual price tags",
+    "outlines, drop shadows, bevels or 3D extrusion on any text",
+    "script, cursive, handwritten or serif typography anywhere (the brand logo is added afterwards as a PNG overlay and is never drawn by the model)",
+    "film grain, dramatic shadows, editorial fashion styling or unreal composited scenes",
+    "rendering any hex code, font name or measurement as visible text",
+    "a dark sharp-cornered rectangle as the call to action button",
+    "a white halo, grey fringe or leftover source background around the cut-out product",
+    "the product floating without a contact shadow beneath it",
+    "the discount badge floating alone in empty colour instead of anchored to the price",
+    "the product cut off, cropped or running beyond any edge of the canvas"
+  ],
+  "works_with": {
+    "aspect_ratios": [
+      "1:1",
+      "4:5",
+      "9:16"
+    ],
+    "needs_product_images": true
+  },
+  "variants": {
+    "hero-plocha": "Sýta zelená plocha, kreslo celé vpravo s odstupom od hrán, headline cez dva až tri riadky vľavo hore v kréme, badge pri cene, dole jeden riadok podmienky.",
+    "typo-crop": "Predimenzovaný headline hore, produkt celý v dolnej časti, veľa prázdnej plochy medzi nimi. ⚠️ Headline nikdy neorezávať hranou — pri teste sa zdvojilo slovo.",
+    "clay-sezona": "Teplá hlinená plocha namiesto zelenej pre jesenné a zimné várky; zelená sa presúva do akcentu. Produkt celý, kompozícia zarovnaná na hranu, nie vycentrovaná."
+  },
+  "brands_validated": [],
+  "source": "AdGenerator Pro — knižnica štýlov",
+  "craft": true
+}

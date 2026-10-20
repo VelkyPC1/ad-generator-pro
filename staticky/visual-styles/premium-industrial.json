@@ -1,0 +1,23 @@
+{
+  "id": "premium-industrial",
+  "name": "Premium industrial",
+  "summary": "Tmavý, technický, remeselný look s kovovými a medenými tónmi. Vážna služba, nie template z Canvy.",
+  "when_to_use": "Technické služby a B2B, kde má vizuál budiť odbornosť a dôveru — čistenie kúrenia, servis, montáž, priemyselné produkty.",
+  "prompt_block": "Render the image as a moody premium industrial photograph. Lighting is low-key and directional: a single hard key light rakes across the subject from the side, carving out texture in metal, brushed steel and machined surfaces, with deep controlled shadows and a warm copper rim light separating the subject from the background. Background is dark charcoal or deep slate with visible but restrained material texture such as concrete or brushed metal, falling off into shadow. Colour grade is cool in the shadows with warm copper and amber highlights. Surfaces show honest wear and craft detail, never plastic perfection. Composition is tight, deliberate and slightly cinematic.",
+  "never": [
+    "bright flat lighting or white studio backgrounds",
+    "pastel colours or playful rounded shapes",
+    "template-style layouts, clip-art icons or Canva-like badges",
+    "clean corporate stock-photo staging"
+  ],
+  "works_with": {
+    "aspect_ratios": [
+      "1:1",
+      "4:5",
+      "9:16"
+    ],
+    "needs_product_images": true
+  },
+  "brands_validated": [],
+  "source": "AdGenerator Pro — knižnica štýlov"
+}

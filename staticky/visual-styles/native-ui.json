@@ -1,0 +1,23 @@
+{
+  "id": "native-ui",
+  "name": "Natívny UI prvok (pattern interrupt)",
+  "summary": "Reklama vyzerá ako natívny prvok telefónu — notifikácia, DM, poznámka, vyhľadávací riadok. Prelomí bannerovú slepotu.",
+  "when_to_use": "Urgency a announcement (nová zľava ako notifikácia), pripomienky, problem framing cez vyhľadávací dopyt.",
+  "prompt_block": "Render the image as a pixel-accurate mobile interface element floating over a simple background: a system notification card, a messaging thread bubble, a notes-app page or a search autocomplete bar. The UI element is reproduced with believable system typography, correct corner radii, a subtle elevation shadow and a faint translucent material fill, so it reads as a genuine screen capture rather than a designed graphic. Background behind the element is either one flat brand colour or a heavily blurred lifestyle photograph with no readable detail. Everything outside the UI element stays quiet and empty. The canvas itself is full-bleed artwork, not a screenshot of a phone.",
+  "never": [
+    "a phone bezel, device frame or mockup hand holding a phone",
+    "platform chrome such as Reels, Stories or TikTok overlays",
+    "decorative ad graphics, badges or starbursts around the UI element",
+    "more than one UI element in frame"
+  ],
+  "works_with": {
+    "aspect_ratios": [
+      "1:1",
+      "4:5",
+      "9:16"
+    ],
+    "needs_product_images": false
+  },
+  "brands_validated": [],
+  "source": "AdGenerator Pro — knižnica štýlov"
+}

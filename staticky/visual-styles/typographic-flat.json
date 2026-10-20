@@ -1,0 +1,24 @@
+{
+  "id": "typographic-flat",
+  "name": "Čistá typografia / flat vektor",
+  "summary": "Bez fotografie a bez ľudí. Dominuje extra tučná typografia na jednoliatom pozadí, doplnená tenkým vektorovým tvarom ako tichý vodoznak.",
+  "when_to_use": "Lead gen a služby, kde fotka len ruší. Ďalej flash/sale, kde má cena alebo zľava kričať a byť prečítaná za pol sekundy.",
+  "prompt_block": "Render the entire image as a flat vector graphic with no photograph and no people. Background is one solid flat colour with no gradient noise and no photographic texture. Typography dominates the canvas: very bold heavy sans-serif, generously spaced, left-aligned, with the key word or number rendered noticeably larger and in the accent colour. Any decorative shape is a single thin outline form, heavily cropped so it bleeds off two edges, tinted so light that it reads as a quiet watermark and never competes with the text. Buttons are solid rounded rectangles with a flat fill. No gradients, no 3D, no drop shadows, no bevels, no photographic elements anywhere.",
+  "never": [
+    "photographs or photorealistic renders of any kind",
+    "gradients, glows, bevels or drop shadows",
+    "more than one decorative shape",
+    "stock illustration clip-art figures"
+  ],
+  "works_with": {
+    "aspect_ratios": [
+      "1:1",
+      "4:5",
+      "9:16",
+      "1.91:1"
+    ],
+    "needs_product_images": false
+  },
+  "brands_validated": [],
+  "source": "AdGenerator Pro — knižnica štýlov"
+}

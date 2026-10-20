@@ -1,0 +1,44 @@
+# Kľúče a lokálne nastavenia
+.env
+**/.env
+video/config.json
+video/config_*.json
+
+# Značky / klienti (vzor _priklad ostáva)
+staticky/brands/*
+!staticky/brands/_priklad/
+
+# Výstupy, denníky, stav dashboardu
+outputs*/
+vystupy/
+staticky/dashboard.html
+staticky/cost-log.jsonl
+staticky/flagged.json
+staticky/approved.json
+staticky/.sha256-cache.json
+staticky/.footage-cache.json
+staticky/video-posters/
+
+# Video — cache, footage, hudba, render
+video/cache/*
+!video/cache/.gitkeep
+video/assets/footage/*
+!video/assets/footage/.gitkeep
+!video/assets/footage/README.md
+video/assets/music/*
+!video/assets/music/.gitkeep
+!video/assets/music/README.md
+video/remotion/out/
+video/remotion/public/
+video/security/render-sandbox.sb
+
+# Symlinky, ktoré vytvára setup.sh
+staticky/video-out
+staticky/video-compose
+staticky/footage
+
+# Systém
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store

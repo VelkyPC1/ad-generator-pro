@@ -1,0 +1,28 @@
+{
+  "brand": "Moja značka",
+  "_meta": {
+    "product": "Názov produktu, objem, hlavný benefit",
+    "ad_set_date": "2026-01-01",
+    "ad_set_name": "prvy-test",
+    "visual_style": "studio-product",
+    "note": "Vzor — uprav texty a popis produktu, potom najprv --dry-run"
+  },
+  "prompts": [
+    {
+      "template_number": 1,
+      "template_name": "headline-hero",
+      "aspect_ratio": "4:5",
+      "needs_product_images": true,
+      "headline": "Jedna veta, ktorá predá",
+      "prompt": "Reproduce the product exactly from the reference image: <popis produktu — tvar, farba, etiketa>. Place it slightly right of centre on a clean surface with a soft contact shadow. Headline at the top, large and bold: 'Jedna veta, ktorá predá'. Small supporting line below it: 'Krátky benefit produktu'. Rounded CTA button at the bottom: 'Kúpiť teraz'. Render EXACTLY these texts, nothing else — never render font names, sizes or colour codes as text."
+    },
+    {
+      "template_number": 7,
+      "template_name": "us-vs-them",
+      "aspect_ratio": "4:5",
+      "needs_product_images": true,
+      "headline": "Bežné produkty vs. my",
+      "prompt": "Reproduce the product exactly from the reference image. Vertical split comparison: left muted grey column labelled 'Bežné produkty' with a generic unbranded competitor and three weaknesses marked with a red X; right column in the brand colour labelled with our product and three strengths with green checkmarks; small 'VS' badge at the top centre. Texts: left 'Rýchlo vyprchá', 'Drahé', 'Chémia'; right 'Vydrží týždne', 'Výhodné', 'Prírodné'. Render EXACTLY these texts, nothing else."
+    }
+  ]
+}

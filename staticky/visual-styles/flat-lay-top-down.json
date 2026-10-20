@@ -1,0 +1,22 @@
+{
+  "id": "flat-lay-top-down",
+  "name": "Flat-lay zhora",
+  "summary": "Pohľad kolmo zhora na aranžovanú plochu. Ukáže šírku sortimentu alebo kontext použitia bez toho, aby vznikol vizuálny chaos.",
+  "when_to_use": "Sety, balíčky, viac produktov naraz, sezónne kompozície. Pozor: viac než 3 až 4 objekty už znižujú výkon.",
+  "prompt_block": "Render the image as a top-down flat-lay photograph shot perpendicular to the surface, with no perspective distortion and no visible horizon. Objects are arranged on a plain matte surface with generous negative space and a clear compositional grid. Lighting is soft and even from above with short, soft shadows falling consistently in one direction. Keep the arrangement deliberately sparse: the hero product is largest and centred or set on a third, supporting objects are smaller and never overlap the hero label. Colour palette is restrained and tonal. Every object lies flat on the surface; nothing floats or stands upright.",
+  "never": [
+    "tilted or three-quarter camera angles",
+    "more than four objects in frame",
+    "objects overlapping the hero product label",
+    "busy patterned surfaces or fabric clutter"
+  ],
+  "works_with": {
+    "aspect_ratios": [
+      "1:1",
+      "4:5"
+    ],
+    "needs_product_images": true
+  },
+  "brands_validated": [],
+  "source": "AdGenerator Pro — knižnica štýlov"
+}

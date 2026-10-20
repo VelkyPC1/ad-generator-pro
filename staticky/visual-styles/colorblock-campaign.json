@@ -1,0 +1,37 @@
+{
+  "id": "colorblock-campaign",
+  "name": "Colorblock kampaň",
+  "summary": "Svetlá denná lifestyle fotografia alebo jedna plochá brand farba, na nej ploché farebné bloky s ostrými rohmi z brand palety. Pokojnejší, retailový náprotivok štýlu vibrant. Brand-agnostický.",
+  "when_to_use": "Kampane so zľavovým kódom, sezónne promo, podmienka nákupu, darček k objednávke, produktové oznámenie. Použiteľný pre každého klienta — paleta sa berie z brand kariet. Vždy, keď má banner pôsobiť ako kampaň značky, nie ako výpredajový leták.",
+  "prompt_block": "Build the image as a clean campaign layout on one of two bases: either a bright natural daylight lifestyle photograph of a real setting where the product is actually used, with soft diffused window light, warm neutral material tones and a gently blurred background, or one flat brand colour filling the frame with a very soft radial lightening towards the centre. Over that base sit flat rectangular colour blocks with SHARP corners, never rounded pills: each block is filled with one solid colour from the brand palette and holds its text with generous internal padding. Blocks stack directly on top of one another with aligned edges and slightly differing widths, and a block may bleed off one or both side edges of the frame. Text is white on the dark and saturated blocks and near-black on the light and yellow blocks. Typography is one heavy geometric sans-serif: the headline and any promo code in ALL CAPS at heavy weight with tight tracking, supporting lines in regular weight sentence case, with the key term inside a sentence set in bold while the rest stays regular. A discount figure sits in its own small block, a short label in caps above a very large percentage. A full-width strip in the darkest palette colour may run along the bottom edge carrying one short line of white caps. Products are real photographed packshots: either standing naturally in the photographed scene with true contact shadows, or cut out and arranged in an evenly spaced row along the lower part of the frame, the outermost ones cropped by the side edges. The call to action is deliberately quiet: a small white rounded chip with a simple line icon, or a pale translucent pill, never a loud saturated button. Overall feel: bright, orderly, retail-grade, confident rather than shouting.",
+  "never": [
+    "rounded pill containers for the headline (that belongs to the vibrant style)",
+    "a layer of glossy 3D emoji stickers or a memoji mascot",
+    "glitter, sparkle or noise texture on the background",
+    "a large loud saturated CTA button",
+    "more than three palette colours besides white in one banner",
+    "outlines, drop shadows or bevels on any text",
+    "script, cursive, handwritten or serif typography anywhere (the brand logo is added afterwards as a PNG overlay and is never drawn by the model)",
+    "platform interface chrome, swipe-up widgets, phone bezels or app UI elements",
+    "dark, moody or heavily graded photography",
+    "rendering any hex code, font name or measurement as visible text"
+  ],
+  "works_with": {
+    "aspect_ratios": [
+      "1:1",
+      "4:5",
+      "9:16"
+    ],
+    "needs_product_images": true
+  },
+  "palette": {
+    "surface": "#FFFFFF"
+  },
+  "variants": {
+    "lifestyle-bloky": "Fotka reálneho prostredia, produkty stoja v scéne, hore headline blok v akcente + pod ním blok s kódom v kontrastnej farbe, vpravo blok so zľavou a blok s podmienkou, dole tmavý pás.",
+    "plocha-rad-produktov": "Plochá akcentová farba, obrovské číslo zľavy hore, pod ním dva riadky podmienok, dole rad vyrezaných produktov zarovnaný na spodnú hranu.",
+    "ruky-copy-blok": "Fotka rúk držiacich produkty v reálnom prostredí, hore blok v akcente s dlhším odsekom copy, dole vľavo biely CTA čip."
+  },
+  "brands_validated": [],
+  "source": "AdGenerator Pro — knižnica štýlov"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "retail-offer-card",
+  "name": "Retail offer karta",
+  "summary": "Hero vizuál hore, biela zaoblená offer karta dole, farebný pás s podmienkou nákupu. Conversion-first vzor s najvyšším overeným ROAS.",
+  "when_to_use": "Zľavové kódy, BOGO, darček k nákupu, podmienka nákupu. Vzor s discount kódom viditeľným do pol sekundy.",
+  "prompt_block": "Build the image in three stacked zones. Upper zone: the hero visual on a saturated brand colour or soft gradient field. Lower zone: a white rounded offer card with generous padding and a soft elevation shadow, holding a small coloured pill badge at the top, one very large bold headline beneath it with the key word in the accent colour, and one short line of dark supporting text. Bottom edge: a full-width solid accent colour band with white uppercase text. Rendering is clean and flat with crisp edges, high contrast between the white card and the coloured field, and no photographic texture on the card itself. The offer must be readable at thumbnail size: the card occupies roughly the lower third to half of the canvas.",
+  "never": [
+    "the offer card floating over a busy photographic background",
+    "more than one badge or more than one price element",
+    "thin light typography in the headline",
+    "shopping carts, baskets or six-product groupings behind the card"
+  ],
+  "works_with": {
+    "aspect_ratios": [
+      "1:1",
+      "4:5",
+      "9:16"
+    ],
+    "needs_product_images": true
+  },
+  "brands_validated": [],
+  "source": "AdGenerator Pro — knižnica štýlov"
+}

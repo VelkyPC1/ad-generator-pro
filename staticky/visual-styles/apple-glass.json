@@ -1,0 +1,34 @@
+{
+  "id": "apple-glass",
+  "name": "Apple glass",
+  "summary": "Matné priesvitné sklenené karty nad bohatým rozostreným pozadím, veľkorysý priestor, display typografia s negatívnym trackingom, jedna akcentová farba. Prémiový tech look.",
+  "when_to_use": "Služby, appky, B2B, prémiové produkty, vlastné projekty. Tam, kde má banner pôsobiť draho a pokojne. NEPOUŽÍVAŤ na zľavové a výpredajové bannery — tento štýl nevie kričať.",
+  "prompt_block": "Build the image as a premium interface-grade composition with real depth. The base is a single rich colour field carrying one large soft gradient bloom of light, or a heavily defocused photographic scene with no readable detail; it is never flat and never busy. Over it float frosted glass surfaces: semi-transparent panels and rounded cards that visibly blur and slightly desaturate what lies behind them, each with a thin bright edge along its top where light catches the material, and a wide soft shadow beneath. Material weight carries the hierarchy: larger surfaces read as thicker, with a stronger blur and a deeper shadow than small chips, and the structural surface is always darker or heavier than the interactive one on top of it. Never stack one light translucent surface directly on another. Text over glass is high contrast and slightly heavier in weight than it would be on a solid ground, never thin grey. Typography is one clean geometric or neo-grotesque sans: the display line is large with visibly NEGATIVE letter spacing and tight leading, so the words read as one dense block; supporting text sits at normal spacing with comfortably open leading. Hierarchy comes from weight, size and leading together, never from adding colours. The palette is restrained to neutrals plus ONE accent colour, and the accent lives on a solid element rather than on the translucent glass. The product floats in generous empty space with a soft realistic shadow, precisely aligned to the layout grid. Where a floating surface meets the content behind it, the edge is a soft blurred fade rather than a hard dividing line. Every spacing and alignment value looks deliberate. Overall feel: calm, spacious, expensive, quietly confident.",
+  "never": [
+    "more than one accent colour, or the accent applied onto the translucent glass itself",
+    "a light translucent surface stacked on another light translucent surface",
+    "hard one-pixel divider lines between floating surfaces and content",
+    "thin light grey text over a translucent or blurred surface",
+    "positive letter spacing on the large display line",
+    "emoji stickers, badges, starbursts, price pills or discount graphics",
+    "outlines, drop shadows, bevels or 3D extrusion on any text",
+    "script, cursive, handwritten or serif typography anywhere (the brand logo is added afterwards as a PNG overlay and is never drawn by the model)",
+    "busy decoration, clip art or stock illustration filling the empty space",
+    "rendering any hex code, font name or measurement as visible text"
+  ],
+  "works_with": {
+    "aspect_ratios": [
+      "1:1",
+      "4:5",
+      "9:16",
+      "1.91:1"
+    ],
+    "needs_product_images": true
+  },
+  "palette": {
+    "note": "Neutrály plus jedna akcentová farba brandu. Akcent patrí na plný prvok, nikdy na sklo."
+  },
+  "brands_validated": [],
+  "source": "AdGenerator Pro — knižnica štýlov",
+  "craft": true
+}

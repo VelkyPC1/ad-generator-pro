@@ -1,0 +1,21 @@
+(version 1)
+;; Sandbox profil pre Remotion render (2026-09-19)
+;; Cieľ: aj keby bol niektorý npm balíček kompromitovaný, nedočiahne
+;; na Claude connectory, API kľúče, SSH ani Keychain.
+(allow default)
+
+(deny file-read* file-write*
+  (subpath "__HOME__/.api-keys")
+  (subpath "__HOME__/.claude")
+  (subpath "__HOME__/.ssh")
+  (subpath "__HOME__/.aws")
+  (subpath "__HOME__/.config/gcloud")
+  (subpath "__HOME__/Library/Keychains")
+  (subpath "__HOME__/Library/Application Support/Google")
+  (literal "__HOME__/.claude.json")
+  (literal "__HOME__/.netrc")
+  ;; PVF config.json obsahuje ElevenLabs kľúč. Render ho nepotrebuje —
+  ;; make_props.py z neho vytiahne fps/farby do props.json mimo sandboxu.
+  (literal "__HOME__/AdGenerator-Pro/video/config.json")
+  (literal "__HOME__/AdGenerator-Pro/video/config.json")
+)

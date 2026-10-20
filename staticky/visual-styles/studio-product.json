@@ -1,0 +1,23 @@
+{
+  "id": "studio-product",
+  "name": "Štúdiový produktový shot",
+  "summary": "Hero produkt na čistom štúdiovom pozadí, mäkké difúzne svetlo, katalógová vernosť. Bezpečná voľba, keď má rozhodovať samotný produkt.",
+  "when_to_use": "Produktové launche, jeden hero produkt, ponuky kde je vizuálna vernosť dôležitejšia než hravosť. Odporúčaný vzor: jeden hero produkt namiesto skupiny.",
+  "prompt_block": "Render the image as a clean commercial studio product photograph. One hero product dominates the frame, shot at a slight three-quarter angle at eye level, tack sharp across the label. Lighting is large soft diffused key light from the upper left with a gentle fill from the right, producing a soft contact shadow directly under the product and a single subtle specular highlight along its edge. Background is a seamless studio sweep in one flat tone or a very soft vertical gradient, with a barely visible horizon. Colour rendering is neutral and true to the product. No props compete with the product; any supporting surface is plain and matte.",
+  "never": [
+    "cluttered backgrounds or more than one competing product",
+    "hard flash shadows or coloured gel lighting",
+    "heavy post-processing, HDR look or oversaturation",
+    "visible studio equipment, tripods or reflections of lights"
+  ],
+  "works_with": {
+    "aspect_ratios": [
+      "1:1",
+      "4:5",
+      "9:16"
+    ],
+    "needs_product_images": true
+  },
+  "brands_validated": [],
+  "source": "AdGenerator Pro — knižnica štýlov"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "memoji-3d",
+  "name": "3D memoji maskot",
+  "summary": "Hravý 3D štylizovaný avatar (Memoji / Pixar look) ako opakovaný brand maskot — teplý ľudský hook bez reálnej fotky a bez nákladov na UGC.",
+  "when_to_use": "Flash akcie, darček k nákupu, BOGO, sezónne promo, plošná zľava. Všade, kde chceme emóciu a zapamätateľnosť, ale nemáme tvár ani rozpočet na UGC.",
+  "prompt_block": "Render the entire image as a polished stylized 3D scene in the Memoji / Pixar look: smooth matte surfaces, soft rounded geometry, gentle global illumination with no harsh shadows, a shallow depth cue from a soft drop shadow under each floating element. The human figure is a friendly stylized 3D avatar with large expressive eyes and an exaggerated positive expression, never a photorealistic person. Background is a clean pastel gradient or one saturated flat brand colour, completely free of photographic texture. Floating 3D icons (gifts, sparkles, lightning bolts, droplets) orbit the figure with slight perspective and soft shadows. Products keep their real photographic identity and are composited into the 3D scene with matching soft lighting. Overall feel: warm, playful, high-gloss, toy-like.",
+  "never": [
+    "photorealistic human skin, pores or real faces",
+    "real photography as background",
+    "harsh directional shadows or cinematic contrast",
+    "gritty, textured or grainy surfaces"
+  ],
+  "works_with": {
+    "aspect_ratios": [
+      "1:1",
+      "4:5",
+      "9:16"
+    ],
+    "needs_product_images": true
+  },
+  "brands_validated": [],
+  "source": "AdGenerator Pro — knižnica štýlov"
+}

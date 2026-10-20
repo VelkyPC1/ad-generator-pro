@@ -1,0 +1,22 @@
+{
+  "id": "ugc-candid",
+  "name": "UGC candid / telefónny záber",
+  "summary": "Vyzerá ako fotka z mobilu bežného zákazníka, nie ako reklama. Nízka produkčná hodnota je zámer.",
+  "when_to_use": "Social proof, testimonial, problem-solution v reálnom prostredí. Funguje tam, kde vyleštená reklama vyvolá nedôveru.",
+  "prompt_block": "Render the image as an authentic smartphone snapshot taken by a real customer at home. Available mixed lighting only: daylight through a window combined with warm indoor light, with uneven exposure and mild colour cast. Slight handheld imperfection is present: a marginally off-level horizon, shallow natural depth of field, a trace of sensor noise in the shadows. The setting is a lived-in real interior with ordinary everyday objects visible in the background. Framing is casual and imperfect, as if shot quickly with one hand. Skin, fabric and surfaces keep natural texture with no retouching and no beauty smoothing. Colour grading is neutral and untreated.",
+  "never": [
+    "studio lighting, softboxes or professional retouching",
+    "polished commercial composition or perfect symmetry",
+    "glossy magazine skin or smoothed textures",
+    "staged stock-photo expressions"
+  ],
+  "works_with": {
+    "aspect_ratios": [
+      "4:5",
+      "9:16"
+    ],
+    "needs_product_images": true
+  },
+  "brands_validated": [],
+  "source": "AdGenerator Pro — knižnica štýlov"
+}

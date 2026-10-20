@@ -103,3 +103,9 @@ AdGenerator-Pro/
 - Server dashboardu počúva len na `127.0.0.1` (nie je dostupný zvonku).
 - Render videí beží v macOS sandboxe — Node / Chromium nevidí `~/.ssh`, `~/.aws`, Keychain ani nastavenia Claude.
 - Každé platené generovanie sa zapisuje do `staticky/cost-log.jsonl` → tab 📊 Štatistiky.
+
+## 6. Zdroj metodiky a licencia
+- Formáty reklám (40 recipe cards v `staticky/04-brief-template-copy-prompts/`) a research prompt vychádzajú
+  z verejnej metodiky **Motion Foundations** ([motionapp.com](https://motionapp.com)). Práva na túto metodiku
+  patria jej autorom; tento repozitár ju len prakticky aplikuje.
+- Kód nástroja (dashboard, generátor, Video Factory, skripty) je pod licenciou MIT — pozri `LICENSE`.
